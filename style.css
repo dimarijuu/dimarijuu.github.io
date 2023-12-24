@@ -4,6 +4,14 @@ body{
     height: 100vb;
     margin: 0;
     box-sizing: border-box;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)) ,url(photo1.jpeg);
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position:center center;
+
+}
+img{
+    filter :grayscale(50);
 }
 .main-container{
 display: flex;
